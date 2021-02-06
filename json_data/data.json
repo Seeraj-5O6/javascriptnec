@@ -9,6 +9,9 @@
             "name":"rajesh",
             "mobile":"1234567891"
             
+        },{
+            "name":"sms",
+            "mobile":"0987654321" 
         }
     ]
 }

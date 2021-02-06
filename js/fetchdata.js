@@ -1,4 +1,4 @@
-fetch()
+fetch("json_data/data.json")
 .then(res=>{return res.json()})
 .then(d=>{
     details(d.details);
@@ -24,10 +24,12 @@ root.appendChild(m);
      for(i in r){
      var li=document.createElement("li");
      li.textContent=r[i].name;
+     li.setAttribute("class","text-info")
      ul.appendChild(li);
 
      var li1=document.createElement("li");
      li1.textContent=r[i].name;
+     li1.setAttribute("class","text-danager")
      ul.appendChild(li1);
      }
  }
